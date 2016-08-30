@@ -13,8 +13,6 @@
 		4ADE560A1D751C78000DCD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE56091D751C78000DCD8F /* Assets.xcassets */; };
 		4ADE560D1D751C78000DCD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE560B1D751C78000DCD8F /* LaunchScreen.storyboard */; };
 		4ADE56161D751DAB000DCD8F /* HyperExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE56141D751DAB000DCD8F /* HyperExample.xcdatamodeld */; };
-		4ADE56201D751EC1000DCD8F /* global-withOneToMany.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE561F1D751EC1000DCD8F /* global-withOneToMany.json */; };
-		4ADE562C1D7546CB000DCD8F /* global.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE562B1D7546CB000DCD8F /* global.json */; };
 		4ADE56321D755253000DCD8F /* global-nested-users.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE56311D755253000DCD8F /* global-nested-users.json */; };
 		4ADE563F1D755E66000DCD8F /* UserModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE56391D755E66000DCD8F /* UserModel+CoreDataProperties.swift */; };
 		4ADE56401D755E66000DCD8F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE563A1D755E66000DCD8F /* UserModel.swift */; };
@@ -34,8 +32,6 @@
 		4ADE560C1D751C78000DCD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ADE560E1D751C78000DCD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADE56151D751DAB000DCD8F /* HyperExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HyperExample.xcdatamodel; sourceTree = "<group>"; };
-		4ADE561F1D751EC1000DCD8F /* global-withOneToMany.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "global-withOneToMany.json"; sourceTree = "<group>"; };
-		4ADE562B1D7546CB000DCD8F /* global.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = global.json; sourceTree = "<group>"; };
 		4ADE56311D755253000DCD8F /* global-nested-users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "global-nested-users.json"; sourceTree = "<group>"; };
 		4ADE56391D755E66000DCD8F /* UserModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4ADE563A1D755E66000DCD8F /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -96,8 +92,6 @@
 				4ADE563D1D755E66000DCD8F /* AccountModel+CoreDataProperties.swift */,
 				4ADE563E1D755E66000DCD8F /* AccountModel.swift */,
 				4ADE56021D751C78000DCD8F /* AppDelegate.swift */,
-				4ADE561F1D751EC1000DCD8F /* global-withOneToMany.json */,
-				4ADE562B1D7546CB000DCD8F /* global.json */,
 				4ADE56311D755253000DCD8F /* global-nested-users.json */,
 				4ADE56141D751DAB000DCD8F /* HyperExample.xcdatamodeld */,
 				4ADE56041D751C78000DCD8F /* ViewController.swift */,
@@ -179,8 +173,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADE56201D751EC1000DCD8F /* global-withOneToMany.json in Resources */,
-				4ADE562C1D7546CB000DCD8F /* global.json in Resources */,
 				4ADE560D1D751C78000DCD8F /* LaunchScreen.storyboard in Resources */,
 				4ADE56321D755253000DCD8F /* global-nested-users.json in Resources */,
 				4ADE560A1D751C78000DCD8F /* Assets.xcassets in Resources */,
