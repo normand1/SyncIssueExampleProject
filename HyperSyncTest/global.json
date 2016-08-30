@@ -1,0 +1,33 @@
+{
+    "user_model":
+    [
+     {
+     "user_name": "userName1",
+     "id" : "0",
+     "user_owned_account" :
+      {
+       "id" : "1",
+     "account_name" : "accountName1",
+     "transaction" :
+        {
+         "amount" : "$200",
+         "id" : "0"
+        }
+       }
+     },
+     {
+     "user_name": "userName2",
+     "id" : "1",
+     "user_owned_account" :
+      {
+       "id" : "2",
+       "account_name" : "accountName2",
+       "transaction" :
+         {
+          "amount" : "$100",
+           "id" : "1"
+         }
+      }
+     }
+     ]
+}

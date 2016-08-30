@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="AccountModel" representedClassName=".AccountModel" syncable="YES">
+        <attribute name="accountName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="accountOwner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserModel" inverseName="userOwnedAccount" inverseEntity="UserModel" syncable="YES"/>
+        <relationship name="secondOwner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserModel" inverseName="secondUserOwnedAccount" inverseEntity="UserModel" syncable="YES"/>
+    </entity>
+    <entity name="UserModel" representedClassName=".UserModel" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="secondUserOwnedAccount" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AccountModel" inverseName="secondOwner" inverseEntity="AccountModel" syncable="YES"/>
+        <relationship name="userOwnedAccount" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AccountModel" inverseName="accountOwner" inverseEntity="AccountModel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AccountModel" positionX="333" positionY="-36" width="128" height="103"/>
+        <element name="UserModel" positionX="-63" positionY="-18" width="162" height="103"/>
+    </elements>
+</model>
